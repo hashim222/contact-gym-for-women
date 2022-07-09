@@ -1,0 +1,1212 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Rowdies:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* header section */
+
+header {
+  background-color: rgba(0, 247, 0, 0.911);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  font-family: "Anton", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.gym-image-logo {
+  height: 2.8rem;
+}
+#gym-logo {
+  font-size: 140%;
+  margin-right: auto;
+  text-transform: uppercase;
+}
+
+/* nav section */
+
+#nav-hero ul {
+  margin-top: 18px;
+}
+#nav-hero ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 140%;
+}
+#nav-hero ul li a:hover {
+  color: rgba(0, 0, 0, 0.678);
+  border-bottom: 3px solid rgb(255, 99, 71);
+  transition: 150ms;
+}
+#nav-hero ul li:first-of-type {
+  border-bottom: 3px solid rgb(255, 99, 71);
+}
+.nav-icon {
+  padding-top: 5px;
+  vertical-align: top;
+}
+
+/* home page section */
+
+#exercise-images-outer {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.exercise-image1 {
+  width: 40%;
+  background-image: url(../images/women-exercising.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.exercise-image2 {
+  width: 60%;
+  background-image: url(../images/women-exercising2.jpg);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.exercise-image-text {
+  background-color: rgba(0, 0, 0, 0.678);
+  position: absolute;
+  top: 180px;
+  right: 38%;
+  width: 160px;
+  line-height: 25px;
+  font-size: 150%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* welcome to gym section */
+
+.welcome-gym-text {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  font-family: "Krona One", sans-serif;
+  font-size: 200%;
+  margin-top: 15px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+#hero-monthly-prices {
+  margin-top: 3rem;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+#hero-monthly-prices > h2 {
+  margin: 100px auto 100px auto;
+  padding: 20px;
+  font-size: 160%;
+  width: 30%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.548);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 10px solid rgb(255, 255, 255);
+  box-shadow: 5px 8px rgb(172, 255, 47);
+}
+.monthly-price {
+  font-style: italic;
+  color: rgb(255, 99, 71);
+  border-bottom: 3px solid rgb(255, 99, 71);
+}
+.monthly-prices-image {
+  background-image: url(../images/workout-fitness-center.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+}
+
+/* weekly classes section */
+
+#weekly-classes-hero {
+  margin-top: 50px;
+}
+#weekly-classes-hero > h2 {
+  padding: 20px;
+  margin: 30px auto 40px auto;
+  text-align: center;
+  font-size: 230%;
+  font-family: "Krona One", sans-serif;
+  border-bottom: 10px solid rgba(0, 247, 0, 0.808);
+  width: 50%;
+}
+.weekly-classes-images-hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.weekly-classes {
+  width: 33.33%;
+}
+
+/* about us section */
+
+#about-us-hero {
+  margin: 60px 50px 10px 50px;
+  scroll-margin-top: 175px;
+}
+.abt-us-section {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.abt-us-section > h2 {
+  background-color: rgb(0, 0, 0);
+  font-size: 250%;
+  text-align: center;
+  color: rgb(172, 255, 47);
+  font-family: "Anton", sans-serif;
+  padding: 10px;
+}
+.abt-us-section > p {
+  text-transform: lowercase;
+  font-size: 150%;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+.abt-us-facilities-section {
+  margin-top: 50px;
+}
+.abt-us-facilities-section > h3 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 180%;
+  font-family: "Krona One", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.abt-us-facilities-section > ul {
+  padding-left: 40px;
+  column-count: 3;
+  font-size: 130%;
+}
+
+/* contact us section */
+
+#form-hero {
+  margin: 80px 25px 30px 25px;
+  scroll-margin-top: 170px;
+  font-family: "Krona One", sans-serif;
+}
+#form-hero > h2 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 247, 0, 0.63);
+  width: 50%;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-size: 220%;
+  border-radius: 45%;
+  padding: 10px;
+}
+legend {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+}
+fieldset {
+  width: 60%;
+  margin: 20px auto 20px auto;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+label {
+  margin: 5px auto 5px auto;
+  display: block;
+  text-align: center;
+  font-size: 120%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%;
+  margin-left: 25%;
+  padding: 10px;
+  resize: none;
+  border-radius: 5px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 3px solid rgb(0, 0, 0);
+}
+input[type="submit"] {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 130%;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(255, 166, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.submit-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.promotion-email {
+  text-align: center;
+  margin-top: 20px;
+}
+.promotion-choice {
+  display: inline-block;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+/* contact us SUBMIT section */
+
+.thank-u-image {
+  width: 100%;
+  background-image: url(../images/thank-you-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.thank-u-page-text {
+  background-color: rgba(0, 0, 0, 0.76);
+  position: absolute;
+  top: 200px;
+  right: 30%;
+  width: 600px;
+  line-height: 35px;
+  font-size: 200%;
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* footer section */
+
+#footer-hero {
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#footer-hero a {
+  color: rgb(255, 255, 255);
+}
+#footer-hero a:hover {
+  color: rgb(172, 255, 47);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: 150ms ease-in-out;
+}
+#opening-hours-hero > h2, #inquiry-hero > h2, #social-media-hero > h2{
+  color: rgb(172, 255, 47);
+}
+
+/* our opening hours section */
+
+#opening-hours-hero {
+  padding: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#opening-hours-hero > h2 {
+  margin-bottom: 5px;
+  color: rgb(172, 255, 47);
+}
+#opening-hours-hero > h2,
+#opening-hours-hero > p {
+  padding: 3px;
+}
+
+/* inquiries section */
+
+#inquiry-hero > h2 {
+  margin-bottom: 15px;
+  font-family: "Fredoka One", cursive;
+  margin: 20px;
+}
+#inquiry-hero > p {
+  padding: 2px;
+  font-size: 105%;
+}
+.our-email {
+  text-transform: lowercase;
+  border-bottom: 1px solid rgb(172, 255, 47);
+}
+
+/* social media section */
+
+#social-media-hero {
+  padding-top: 10px;
+}
+#social-media-hero > h2 {
+  font-size: 200%;
+  margin-bottom: 5px;
+  font-family: "Fredoka One", cursive;
+}
+#social-media-hero > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+#social-media-hero > ul > li {
+  padding: 10px 10px 25px 20px;
+  font-size: 110%;
+}
+
+/*Extra large screen-size 1080px */
+
+@media screen and (max-width: 1080px) {
+  .exercise-image-text {
+    right: 38%;
+    width: 140px;
+    line-height: 23px;
+    font-size: 130%;
+  }
+
+  /* welcome to gym section */
+
+  #hero-monthly-prices {
+    height: 380px;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 25px;
+    font-size: 150%;
+  }
+  .monthly-prices-image {
+    height: 380px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    font-size: 220%;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    margin: 40px;
+    scroll-margin: 155px;
+  }
+  .abt-us-facilities-section > h3 {
+    font-size: 170%;
+    margin-top: 40px;
+  }
+  .abt-us-facilities-section > ul {
+    font-size: 125%;
+  }
+
+  /* contact us SUBMIT section */
+  
+  .thank-u-page-text {
+    right: 20%;
+  }
+}
+
+/* large screen-size 950px */
+
+@media screen and (max-width: 950px) {
+  .gym-image-logo {
+    height: 2.3rem;
+  }
+  #gym-logo {
+    font-size: 125%;
+    margin: 0 auto 0 -30px;
+    padding-left: 20px;
+  }
+
+  /* nav section */
+
+  #nav-hero ul li {
+    font-size: 120%;
+  }
+
+  /* home page section */
+
+  .exercise-image1 {
+    height: 450px;
+  }
+  .exercise-image2 {
+    height: 450px;
+  }
+  .exercise-image-text {
+    top: 170px;
+    right: 37%;
+    padding: 13px;
+  }
+
+  /* welcome to gym section */
+
+  #hero-monthly-prices {
+    margin-top: 3.5rem;
+    height: 360px;
+  }
+  #hero-monthly-prices > h2 {
+    font-size: 125%;
+  }
+  .monthly-prices-image {
+    height: 360px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    font-size: 215%;
+    width: 70%;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    margin: 60px 30px 10px 30px;
+  }
+  .abt-us-section {
+    width: 55%;
+  }
+  .abt-us-section > p {
+    font-size: 140%;
+  }
+
+  .abt-us-facilities-section {
+    margin-top: 60px;
+  }
+  .abt-us-facilities-section > ul {
+    font-size: 130%;
+  }
+
+  /* contact us section */
+
+  #form-hero > h2 {
+    font-size: 210%;
+  }
+  legend {
+    font-size: 140%;
+  }
+  fieldset {
+    padding-bottom: 30px;
+  }
+  label {
+    font-size: 115%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 45%;
+    margin-right: auto;
+    padding: 8px;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    border: 2px solid rgb(0, 0, 0);
+  }
+  input[type="submit"] {
+    font-size: 125%;
+  }
+  .submit-btn {
+    margin-top: 10px;
+  }
+  .promotion-email {
+    font-size: 95%;
+  }
+
+  /* contact us SUBMIT section */
+
+  .thank-u-image{
+    height: 450px;
+  }
+  .thank-u-page-text {
+    top: 140px;
+    width: 500px;
+    line-height: 40px;
+    font-size: 180%;
+  }
+
+  /* footer section */
+
+  #footer-hero {
+    padding-top: 25px;
+  }
+
+  /* our opening hours section */
+
+  #opening-hours-hero {
+    padding: 0 0 10px 0;
+  }
+  #opening-hours-hero > h2,
+  #opening-hours-hero > p {
+    padding: 4px;
+  }
+
+  /* inquiries section */
+
+  #inquiry-hero > p {
+    padding: 3px;
+  }
+}
+
+/* medim screen-size 768px*/
+
+@media screen and (max-width: 768px) {
+  .gym-image-logo {
+    height: 2rem;
+  }
+  #gym-logo {
+    font-size: 110%;
+    padding-left: 15px;
+  }
+
+  /* nav section */
+
+  #nav-hero ul {
+    margin: 16px -15px 10px 0;
+  }
+  #nav-hero ul li {
+    margin: 0 5px;
+    font-size: 110%;
+  }
+
+  /* home page section */
+  .exercise-image1 {
+    height: 400px;
+  }
+  .exercise-image2 {
+    height: 400px;
+  }
+  .exercise-image-text {
+    top: 150px;
+    right: 35%;
+    width: 120px;
+    line-height: 20px;
+    font-size: 110%;
+    padding: 12px;
+  }
+
+  /* welcome to gym section */
+
+  #hero-monthly-prices {
+    margin-top: 3rem;
+    height: 340px;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 15px;
+    font-size: 110%;
+    width: 30%;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 4px 6px rgb(172, 255, 47);
+  }
+  .monthly-prices-image {
+    height: 340px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    padding: 30px;
+    font-size: 210%;
+  }
+  .weekly-classes {
+    width: 50%;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    margin: 60px 35px 10px 35px;
+  }
+  .abt-us-section {
+    width: 65%;
+  }
+  .abt-us-section > h2 {
+    font-size: 230%;
+  }
+  .abt-us-facilities-section > h3 {
+    font-size: 165%;
+  }
+  .abt-us-facilities-section > ul {
+    padding-left: 40px;
+    column-count: 2;
+  }
+
+  /* contact us section */
+
+  legend {
+    font-size: 130%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 6px;
+  }
+
+  /* contact us SUBMIT section */
+
+  .thank-u-image {
+    height: 400px;
+  }
+  .thank-u-page-text {
+    right: 15%;
+    width: 450px;
+    line-height: 45px;
+    font-size: 160%;
+  }
+
+  /* footer section */
+
+  #footer-hero {
+    padding-top: 20px;
+  }
+
+  /* our opening hours section */
+
+  #opening-hours-hero > h2,
+  #opening-hours-hero > p {
+    padding: 3px;
+  }
+
+  /* inquiries section */
+
+  #inquiry-hero > h2 {
+    font-size: 140%;
+  }
+  #inquiry-hero > p {
+    font-size: 103%;
+  }
+
+  /* social media section */
+
+  #social-media-hero > h2 {
+    font-size: 180%;
+  }
+  #social-media-hero > ul > li {
+    font-size: 105%;
+  }
+}
+
+/* medim to small screen-size 650px*/
+
+@media screen and (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  #gym-logo {
+    font-size: 110%;
+    margin-left: -10px;
+    margin-bottom: 30px;
+  }
+
+  /* nav section */
+
+  #nav-hero ul {
+    margin-top: 5px;
+    margin-right: auto;
+    text-align: center;
+  }
+  #nav-hero ul li {
+    margin: 0 10px;
+    font-size: 140%;
+  }
+
+  /* home page section */
+
+  .exercise-image1 {
+    height: 370px;
+  }
+  .exercise-image2 {
+    height: 370px;
+  }
+  .exercise-image-text {
+    top: 200px;
+    right: 5%;
+    width: 100px;
+    line-height: 15px;
+    font-size: 95%;
+  }
+
+  /* welcome to gym section */
+
+  .welcome-gym-text {
+    font-size: 150%;
+  }
+  #hero-monthly-prices {
+    height: 370px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  #hero-monthly-prices > h2 {
+    padding: 25px;
+    font-size: 140%;
+    width: 70%;
+    position: absolute;
+    top: 40px;
+    right: 65px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 3px 5px rgb(172, 255, 47);
+    background-color: rgba(0, 0, 0, 0.678);
+  }
+  .monthly-prices-image {
+    width: 100%;
+    height: 370px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    font-size: 200%;
+    padding: 10px;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    scroll-margin: 210px;
+  }
+  .abt-us-section {
+    width: 80%;
+  }
+  .abt-us-section > h2 {
+    font-size: 225%;
+  }
+  .abt-us-section > p {
+    font-size: 130%;
+    margin: 15px;
+  }
+  .abt-us-facilities-section > h3 {
+    font-size: 155%;
+  }
+  .abt-us-facilities-section > ul {
+    font-size: 120%;
+  }
+
+  /* contact us section */
+
+  #form-hero > h2 {
+    width: 70%;
+    font-size: 200%;
+  }
+  fieldset {
+    width: 70%;
+    padding-bottom: 20px;
+  }
+  label {
+    margin: 7px auto 7px auto;
+    font-size: 110%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 50%;
+    padding: 5px;
+  }
+  input[type="submit"] {
+    font-size: 120%;
+  }
+
+  /* contact us SUBMIT section */
+
+  .thank-u-image {
+    height: 370px;
+  }
+  .thank-u-page-text {
+    right: 18%;
+    width: 350px;
+    line-height: 35px;
+    font-size: 140%;
+  }
+
+  /* footer section */
+
+  #footer-hero {
+    padding-top: 25px;
+  }
+
+  /* inquiries section */
+
+  #inquiry-hero > h2 {
+    font-size: 130%;
+  }
+  #inquiry-hero > p {
+    font-size: 100%;
+  }
+
+  /* social media section */
+
+  #social-media-hero > h2 {
+    font-size: 170%;
+  }
+  #social-media-hero > ul {
+    display: inline-block;
+    column-count: 2;
+  }
+  #social-media-hero > ul > li {
+    padding: 12px;
+    font-size: 110%;
+  }
+}
+
+/* small screen-size 500px*/
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 5px;
+  }
+  .gym-image-logo {
+    height: 1.7rem;
+  }
+  #gym-logo {
+    font-size: 95%;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+  }
+  #nav-hero ul li {
+    margin: 0 3px 2px 8px;
+    font-size: 120%;
+  }
+  .nav-icon {
+    padding-top: 3px;
+  }
+
+  /* home page section */
+
+  .exercise-image1 {
+    height: 280px;
+  }
+  .exercise-image2 {
+    height: 280px;
+  }
+  .exercise-image-text {
+    top: 140px;
+    right: 30px;
+    width: 90px;
+    font-size: 80%;
+    padding: 13px;
+  }
+
+  /* welcome to gym section */
+
+  .welcome-gym-text {
+    font-size: 140%;
+  }
+  #hero-monthly-prices {
+    height: 340px;
+  }
+  #hero-monthly-prices > h2 {
+    font-size: 100%;
+    top: 50px;
+    right: 60px;
+    width: 60%;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 2px 3px rgb(172, 255, 47);
+  }
+  .monthly-prices-image {
+    height: 340px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    font-size: 190%;
+    width: 60%;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    margin: 30px;
+    scroll-margin-top: 170px;
+  }
+  .abt-us-section {
+    width: 100%;
+  }
+  .abt-us-section > h2 {
+    font-size: 220%;
+  }
+  .abt-us-section > p {
+    font-size: 120%;
+  }
+  .abt-us-facilities-section {
+    margin-top: 50px;
+  }
+  .abt-us-facilities-section > h3 {
+    font-size: 140%;
+  }
+  .abt-us-facilities-section > ul {
+    font-size: 110%;
+  }
+
+  /* contact us section */
+
+  #form-hero > h2 {
+    font-size: 190%;
+  }
+  legend {
+    font-size: 110%;
+  }
+  fieldset {
+    width: 85%;
+  }
+  label {
+    font-size: 100%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 60%;
+    margin-left: 18%;
+  }
+  input[type="submit"] {
+    font-size: 115%;
+  }
+  .promotion-email {
+    font-size: 80%;
+  }
+
+  /* contact us SUBMIT section */
+
+  .thank-u-image {
+    height: 280px;
+    background-position: center;
+  }
+  .thank-u-page-text {
+    top: 70px;
+    left: 16%;
+    width: 55%;
+    line-height: 30px;
+    font-size: 110%;
+  }
+
+  /*footer opening-hours section */
+
+  #opening-hours-hero > h2 {
+    margin-bottom: 5px;
+    font-size: 120%;
+  }
+  #opening-hours-hero > p {
+    padding: 3px;
+    font-size: 95%;
+  }
+
+  /* inquiries section */
+
+  #inquiry-hero > h2 {
+    font-size: 120%;
+  }
+  #inquiry-hero > p {
+    padding: 4px;
+    font-size: 95%;
+  }
+
+  /* social media section */
+
+  #social-media-hero > h2 {
+    font-size: 160%;
+  }
+}
+
+/* lowest resolution width 380px */
+
+@media screen and (max-width: 380px) {
+  #nav-hero ul li {
+    font-size: 100%;
+  }
+
+  /* home page section */
+
+  .exercise-image-text {
+    top: 120px;
+    right: 30px;
+    width: 85px;
+    font-size: 70%;
+    padding: 8px;
+  }
+  .exercise-image1 {
+    height: 250px;
+    background-position: center;
+  }
+  .exercise-image2 {
+    height: 250px;
+    background-position: right;
+  }
+
+  /* main section */
+
+  #hero-monthly-prices > h2 {
+    font-size: 90%;
+    width: 65%;
+    top: 40px;
+    left: 30px;
+  }
+
+  /* weekly classes section */
+
+  #weekly-classes-hero > h2 {
+    font-size: 165%;
+    width: 70%;
+  }
+  .weekly-classes {
+    width: 100%;
+  }
+  
+  /* about us section */
+
+  .abt-us-section > h2 {
+    font-size: 180%;
+  }
+  .abt-us-section > p {
+    font-size: 100%;
+  }
+  .abt-us-facilities-section > h3 {
+    font-size: 125%;
+  }
+  .abt-us-facilities-section > ul {
+    column-count: 1;
+    font-size: 120%;
+  }
+
+  /* contact us section */
+
+  #form-hero > h2 {
+    font-size: 180%;
+  }
+  fieldset {
+    width: 95%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 60%;
+  }
+  input[type="submit"] {
+    font-size: 105%;
+  }
+  .promotion-email {
+    font-size: 75%;
+  }
+
+  /* contact us SUBMIT section */
+
+  .thank-u-page-text {
+    top: 80px;
+    left: 15%;
+    width: 50%;
+    line-height: 25px;
+    font-size: 105%;
+  }
+
+  /*footer opening-hours section */
+
+  #opening-hours-hero > h2 {
+  font-size: 115%;
+  }
+
+  /* inquiries section */
+
+  #inquiry-hero > h2 {
+    font-size: 110%;
+  }
+
+  /* social media section */
+
+  #social-media-hero > h2 {
+    font-size: 150%;
+  }
+}
+
+/* higher-resolution screens 1600px+ */
+
+@media screen and (min-width: 1650px) {
+
+  /* header section */
+
+  header {
+    padding: 40px;
+  }
+  .gym-image-logo {
+    height: 4rem;
+  }
+  #gym-logo {
+    font-size: 170%;
+    margin-top: 5px;
+  }
+
+  /* nav section */
+
+  #nav-hero ul {
+    margin-top: 30px;
+  }
+  #nav-hero ul li {
+    font-size: 160%;
+  }
+
+  /* home page section */
+
+  .exercise-image1 {
+    height: 700px;
+  }
+  .exercise-image2 {
+    height: 700px;
+  }
+  .exercise-image-text {
+    top: 250px;
+    font-size: 160%;
+    width: 200px;
+  }
+
+  /* about us section */
+
+  #about-us-hero {
+    scroll-margin-top: 220px;
+  }
+  
+  /* contact us section */
+
+  #form-hero{
+    scroll-margin-top: 220px;
+  }
+  .thank-u-image{
+    height: 700px;
+  }
+  .thank-u-page-text {
+      top: 260px;
+      right: 32%;
+      width: 600px;
+      line-height: 45px;
+      font-size: 250%;
+    }
+}

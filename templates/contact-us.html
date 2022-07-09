@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <!-- contact us section -->
+    <section id="form-section">
+        <form action="#" method="POST" target="_blank" id="form-hero">
+            <h2>contact us</h2>
+            <fieldset>
+                <legend>enter your details:</legend>
+    
+                <label for="fname">first name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required>
+    
+                <label for="lname">last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required>
+    
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+    
+                <label for="pnumber">phone number:</label>
+                <input type="text" id="pnumber" name="pnumber" placeholder="Phone Number" required>
+    
+    
+                <label for="subject">subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="7"></textarea>
+    
+                <div class="promotion-email">
+                    <h3>Do you wish to receive notifications about promotions?</h3>
+                    <label for="yes" class="promotion-choice">yes</label>
+                    <input type="radio" id="yes" name="notifications" value="yes">
+                    <label for="no" class="promotion-choice">no</label>
+                    <input type="radio" id="no" name="notifications" value="no">
+                </div>
+    
+                <!-- contact us SUBMIT section -->
+                <div class="submit-btn">
+                    <input type="submit" value="Submit Form">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+{% endblock %}

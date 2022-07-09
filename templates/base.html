@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gym for women only">
+    <meta name="keywords" content="women gym, women only">
+    <!-- font-awesome toolkit -->
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css') }}">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>gym for women</title>
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header>
+        <a href="{{ url_for('index') }}" id="gym-logo">
+            <h1>
+                <span>gym</span><img src="images/outline_fitness_center_black_24dp.png" alt="women gym logo"
+                    class="gym-image-logo"><span>for women</span>
+            </h1>
+        </a>
+
+        <!-- nav section -->
+        <nav id="nav-hero">
+            <ul>
+                <li>
+                    <a href="{{ url_for('index') }}"><i class="fa-solid fa-house-chimney nav-icon"></i> home</a>
+                </li>
+                <li>
+                    <a href="{{ url_for('about') }}"><i class="fa-solid fa-circle-info nav-icon"></i> about us</a>
+                </li>
+                <li>
+                    <a href="{{ url_for('contact') }}">
+                        <i class="fa-solid fa-address-book nav-icon"></i> contact us </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    {% block content %}
+
+
+    {% endblock content%}
+
+    <!-- footer section -->
+    <footer id="footer-hero">
+
+        <!-- our opening hours section-->
+        <section id="opening-hours-hero">
+            <h2>Our opening hours</h2>
+            <p>monday to friday - 7Am to 11Pm</p>
+            <p>saturday to sunday - 6Am to 12Am</p>
+        </section>
+
+        <!-- inquiries section -->
+        <section id="inquiry-hero">
+            <h2> Please contact us if you have any questions or inquiries:</h2>
+            <p>01987654321</p>
+            <p><span class="our-email">Information@gymforwomen.net</span></p>
+            <p>gymforwomen, Dantzic Street, Manchester, united kingdom</p>
+        </section>
+
+        <!-- social media section -->
+        <section id="social-media-hero">
+            <h2>follow us</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i>
+                        facebook</a>
+                </li>
+
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank"> <i class="fa-brands fa-twitter"></i> twitter</a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram"></i>
+                        instagram</a>
+                </li>
+
+                <li>
+                    <a href="https://www.tiktok.com/" target="_blank"> <i class="fa-brands fa-tiktok"></i> tiktok</a>
+                </li>
+            </ul>
+
+        </section>
+    </footer>
+
+</body>
+
+</html>

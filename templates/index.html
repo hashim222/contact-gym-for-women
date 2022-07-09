@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <!-- main secion -->
+    <main>
+    
+        <!-- home page section -->
+        <section id="exercise-images-outer">
+            <div class="exercise-image1">
+    
+            </div>
+            <div class="exercise-image2">
+    
+            </div>
+            <h2 class="exercise-image-text">a place where you can feel comfortable with yourself</h2>
+        </section>
+    
+        <!-- welcome to gym section-->
+        <section id="join-new-members">
+            <h2 class="welcome-gym-text">
+                welcome to gym for women
+            </h2>
+            <div id="hero-monthly-prices">
+                <h2> we offer you affordable prices with a starting price of <span class="monthly-price">£10.99</span> a
+                    month
+                    and get 10% off on your first-month membership
+                </h2>
+                <div class="monthly-prices-image">
+    
+                </div>
+            </div>
+        </section>
+    
+        <!-- weekly classes section -->
+        <section id="weekly-classes-hero">
+            <h2>Fitness classes are available every week</h2>
+            <div class="weekly-classes-images-hero">
+                <img src="{{ url_for('static', filename='images/class-image-1.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image1">
+                <img src="{{ url_for('static', filename='images/class-image-2.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image2">
+                <img src="{{ url_for('static', filename='images/class-image-3.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image3">
+                <img src="{{ url_for('static', filename='images/class-image-4.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image4">
+                <img src="{{ url_for('static', filename='images/class-image-5.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image5">
+                <img src="{{ url_for('static', filename='images/class-image-6.jpg') }}" class="weekly-classes"
+                    alt="weekly fitness clases image6">
+    
+            </div>
+        </section>
+    </main>
+
+{% endblock content %}
